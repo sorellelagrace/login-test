@@ -28,7 +28,10 @@ p {
   background-size: cover;
   display: flex;
   justify-content: flex-end;
-  height: 90%;
+  margin-top: 22px;
+  margin-bottom: 32px;
+  margin-left: 22px;
+  margin-right: 22px;
 
 }
 

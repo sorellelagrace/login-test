@@ -1,7 +1,9 @@
-import React from 'react';
-
+import React, {useContext} from 'react';
+import Context from '../context/Context'
 
 export default function Inscription() {
+   const value= useContext(Context)//resortir la valuer qui se trouve dans provider 
+   console.log(value)
   return (
     <div className="bodyform">
       <div className="part contactform">
