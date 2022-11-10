@@ -5,6 +5,7 @@ export default function Inscription() {
   return (
     <div className="bodyform">
       <div className="part contactform">
+        <h3> Sleeknote</h3>
         <h1> Welcome Back</h1>
         <input type="text" placeholder=" login with Google" />
         <hr /> OK LOGIN WITH EMAIL
@@ -23,18 +24,17 @@ export default function Inscription() {
             </label>
             </div>
             <div>
+            
+            </div>  
+          </form>
+          <div>
             <label>
-              <input type="checkbox" />
+            <input type="checkbox" />
               keep me logged in
-            </label>
-            </div>
-            <div>
-            <label>
-              <input type="text" />
+              
               <a href=""> forget your passeword?</a>
             </label>
             </div>
-          </form>
           <button onclick="submit()">Log in</button>
           <p>
             Don't have an account?

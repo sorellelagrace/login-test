@@ -15,7 +15,11 @@ p {
 .contactform{
   width: 50%;
   height: 100vh;
-
+  background-color: rgb(233, 161, 27);
+  margin-top: 22px;
+  margin-bottom: 32px;
+  margin-left: 22px;
+  margin-right: 22px;
 
 }
 .academy{
@@ -25,7 +29,30 @@ p {
   display: flex;
   justify-content: flex-end;
   height: 90%;
-  
+
+}
+
+button{
+  width: 70%;
+  color:aliceblue;
+  background-color: blue;
+  padding: 12px;
+  margin-top: 12px;
+  border:1px solid blue;
+}
+
+form label{
+display: flex;
+flex-direction: column;
 
 
+}
+form input{
+width: 70%;
+padding:12px;
+
+}
+input{
+width: 70%;
+padding:12px;
 }
