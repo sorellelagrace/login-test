@@ -15,12 +15,40 @@ p {
 .contactform{
   width: 50%;
   height: 100vh;
-  background-color: rgb(233, 161, 27);
+  background-color: rgb(231, 165, 41);
   margin-top: 22px;
   margin-bottom: 32px;
   margin-left: 22px;
   margin-right: 22px;
+  padding-left: 150px;
+  
+}
+.contactform input{
+  font-size: 15px;
+  
+}
+.unit{
+  padding-left: 95px;
+  background-color:rgb(206, 143, 27);
+  border:1px solid rgb(219, 161, 51);
+  color:black;
+  
+}
+.contactform label{
+  font-size: 15px;
+  margin-top: 16px;
+  font: 1em sans-serif;
+}
+h1{
+  justify-content: center;
+  padding-left: 5px;
+  font-size: 45px;
+  padding-top: -25px;
+}
 
+ h3{
+  justify-content: center;
+  padding-left: 45px;
 }
 .academy{
   background-repeat: no-repeat;
@@ -47,15 +75,33 @@ button{
 form label{
 display: flex;
 flex-direction: column;
-
-
 }
+
 form input{
 width: 70%;
 padding:12px;
-
 }
+
 input{
 width: 70%;
 padding:12px;
 }
+
+.loggin_infos{
+  display: flex;
+  justify-content: space-around;
+  margin: -0.2rem auto;
+}
+
+.check{
+  display:flex;
+  justify-content: space-around;
+  margin: 2rem auto
+}
+p{
+  margin-left: 55px;
+}
+
+
+
+
